@@ -1,0 +1,18 @@
+.main-menu {
+	list-style: none;
+	display: flex;
+	gap: 16px;
+	padding: 10px;
+	margin: 0;
+	background: #e9eef8;
+}
+
+.main-menu a {
+	text-decoration: none;
+	color: #222;
+	font-weight: 600;
+}
+
+.main-menu a:hover {
+	color: #0056b3;
+}
