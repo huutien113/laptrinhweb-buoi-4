@@ -16,3 +16,32 @@
 .main-menu a:hover {
 	color: #0056b3;
 }
+
+.right-news {
+	margin-top: 12px;
+	padding: 12px;
+	border: 1px solid #cfd8e3;
+	background: #f8fbff;
+}
+
+.right-news h3 {
+	margin: 0 0 10px;
+}
+
+.right-news ul {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.right-news li {
+	margin-bottom: 8px;
+}
+
+.right-news a {
+	text-decoration: none;
+	color: #1f3c88;
+}
+
+.right-news a:hover {
+	text-decoration: underline;
+}

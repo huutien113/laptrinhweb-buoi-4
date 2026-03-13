@@ -7,4 +7,5 @@ mysqli_set_charset($conn, "utf8");
 
 echo '<link rel="stylesheet" href="assets/css/style.css">';
 include "includes/top.php";
+include "includes/right.php";
 ?>
