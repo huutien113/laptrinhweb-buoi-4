@@ -12,7 +12,7 @@ $dsTinMoi = getTinMoiNhat($conn, 5);
 		<ul>
 			<?php foreach ($dsTinMoi as $tin): ?>
 				<li>
-					<a href="#">
+					<a href="detail_news.php?idTinTuc=<?php echo (int)$tin['id']; ?>">
 						<?php echo htmlspecialchars($tin['tieuDe']); ?>
 					</a>
 				</li>

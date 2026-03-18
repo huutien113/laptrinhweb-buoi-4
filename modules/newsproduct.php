@@ -18,3 +18,20 @@ function getTinMoiNhat($conn, $n = 5)
 
 	return $dsTin;
 }
+
+function getChiTietTinTheoId($conn, $idTinTuc)
+{
+	$id = (int)$idTinTuc;
+	if ($id <= 0) {
+		return null;
+	}
+
+	$sql = "SELECT id, tieuDe, NoiDung FROM tintuc WHERE id = $id LIMIT 1";
+	$result = mysqli_query($conn, $sql);
+
+	if ($result && mysqli_num_rows($result) > 0) {
+		return mysqli_fetch_assoc($result);
+	}
+
+	return null;
+}
